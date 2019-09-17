@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">zmd_test</string>
+    <string name="nav_dogs">Dogs</string>
+    <string name="nav_cats">Cats</string>
 </resources>

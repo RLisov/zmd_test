@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_menu_cats"
+        android:enabled="true"
+        android:title="@string/nav_cats"
+        android:icon="@drawable/ic_black_cat_24dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_menu_dogs"
+        android:enabled="true"
+        android:title="@string/nav_dogs"
+        android:icon="@drawable/ic_doge_black_24dp"
+        app:showAsAction="ifRoom" />
+</menu>
