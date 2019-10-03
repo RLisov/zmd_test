@@ -1,4 +1,4 @@
-package com.shaq.zmd_test.ui.activities;
+package com.shaq.zmd_test.presenters.main;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,17 +7,15 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.shaq.zmd_test.BuildConfig;
 import com.shaq.zmd_test.R;
-import com.shaq.zmd_test.ui.fragments.CatsFragment;
-import com.shaq.zmd_test.ui.fragments.DogsFragment;
+import com.shaq.zmd_test.presenters.cats.CatsFragment;
+import com.shaq.zmd_test.presenters.dogs.DogsFragment;
 
 public class MainActivity extends AppCompatActivity {
 
