@@ -11,7 +11,7 @@ public class RetrofitAdapter {
 
     private static Retrofit retrofit;
     private static Gson gson;
-    private static final String BASE_URL = "https://jsonplaceholder.typicode.com";
+    private static final String BASE_URL = "http://kot3.com/xim/api.php?query=";
 
     public static synchronized Retrofit getInstance() {
 
